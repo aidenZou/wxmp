@@ -1,0 +1,23 @@
+{
+  "name": "wxmp-fetch",
+  "version": "0.1.0",
+  "description": "fetch 的小程序实现",
+  "author": "子凡 <aidenZou@gmail.com>",
+  "main": "dist/fetch.js",
+  "module": "dist/fetch.esm.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
